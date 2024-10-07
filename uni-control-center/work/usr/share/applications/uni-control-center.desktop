@@ -1,0 +1,11 @@
+[Desktop Entry]
+Icon=preferences-system
+Exec=uni-control-center
+Type=Application
+Categories=GTK;Settings;
+Name=uni control center
+Name[ja]=uniコントロールセンター
+GenericName=System Settings
+GenericName[ja]=システム設定
+Keywords=Preferences;Settings;
+Keywords[ja]=Preferences;Settings;設定;

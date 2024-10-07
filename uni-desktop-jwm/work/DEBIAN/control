@@ -1,0 +1,11 @@
+Package: uni-desktop-jwm
+Version: 0.8
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Depends: jwm, tint2-theme-link, jgmenu-theme-link, xdg-user-dirs, pcmanfm, file-roller, uni-wallpapers, blueberry, network-manager-gnome, diodon, package-update-indicator, gnome-package-updater, policykit-1-gnome, xfce4-notifyd, xcape, scrot, uni-control-center, lxterminal, lxtask, uni-session
+Section: unknown
+Priority: optional
+Description: JWM configuration for uni desktop
+ Created with reference to:
+ https://github.com/horst3180/arc-theme
+ https://gitlab.com/fedemp/jwm-arc-daker

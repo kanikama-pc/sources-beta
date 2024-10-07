@@ -1,0 +1,35 @@
+#!/bin/bash
+
+icon="/usr/share/icons/Papirus/32x32/apps/system-shutdown.svg"
+
+case $LANG in
+  ja*)
+    list=( "タスクマネージャー" "ログアウト" "スリープ" "再起動" "シャットダウン" )
+    title="電源オプション"
+    text="実行するアクションを選択してください。" ;;
+  *)
+    list=( "Task manager" "Logout" "Sleep" "Reboot" "Shutdown" )
+    title="Power options"
+    text="Select an action to execute." ;;
+esac
+
+action=$( \
+    zenity \
+    --list \
+    --modal \
+    --column="" \
+    --hide-header \
+    --height="210" \
+    --text="${text}" \
+    --title="${title}" \
+    --window-icon="${icon}" \
+    "${list[@]}" \
+)
+
+case "${action}" in
+  "${list[0]}") lxtask ;;
+  "${list[1]}") jwm -exit ;;
+  "${list[2]}") systemctl suspend ;;
+  "${list[3]}") systemctl reboot ;;
+  "${list[4]}") systemctl poweroff ;;
+esac

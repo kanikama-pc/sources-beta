@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<JWM>
+    <Include>/etc/uni-desktop/rc.xml</Include>
+</JWM>

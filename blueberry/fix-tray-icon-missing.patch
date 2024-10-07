@@ -1,0 +1,24 @@
+diff --git a/usr/lib/blueberry/blueberry-tray.py b/usr/lib/blueberry/blueberry-tray.py
+index ddc860c..bfc0ce9 100755
+--- a/usr/lib/blueberry/blueberry-tray.py
++++ b/usr/lib/blueberry/blueberry-tray.py
+@@ -34,13 +34,13 @@ class BluetoothTray(Gtk.Application):
+         self.settings = Gio.Settings(schema="org.blueberry")
+         self.settings.connect("changed::tray-enabled", self.on_settings_changed_cb)
+ 
+-        self.tray_icon = "blueberry-tray"
+-        self.tray_active_icon = "blueberry-tray-active"
+-        self.tray_disabled_icon = "blueberry-tray-disabled"
++        self.tray_icon = "/usr/share/icons/Papirus-Dark/symbolic/status/blueberry-tray-symbolic.svg"
++        self.tray_active_icon = "/usr/share/icons/Papirus-Dark/symbolic/status/blueberry-tray-active-symbolic.svg"
++        self.tray_disabled_icon = "/usr/share/icons/Papirus-Dark/symbolic/status/blueberry-tray-disabled-symbolic.svg"
+         if self.settings.get_boolean("use-symbolic-icons"):
+-            self.tray_icon = "blueberry-tray-symbolic"
+-            self.tray_active_icon = "blueberry-tray-active-symbolic"
+-            self.tray_disabled_icon = "blueberry-tray-disabled-symbolic"
++            self.tray_icon = "/usr/share/icons/Papirus-Dark/symbolic/status/blueberry-tray-symbolic.svg"
++            self.tray_active_icon = "/usr/share/icons/Papirus-Dark/symbolic/status/blueberry-tray-active-symbolic.svg"
++            self.tray_disabled_icon = "/usr/share/icons/Papirus-Dark/symbolic/status/blueberry-tray-disabled-symbolic.svg"
+ 
+         # If we have no adapter, or disabled tray, end early
+         if (not self.rfkill.have_adapter) or (not self.settings.get_boolean("tray-enabled")):

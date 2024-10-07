@@ -1,0 +1,8 @@
+Package: uni-desktop-l10n-ja
+Version: 0.8
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Depends: uni-desktop-jwm, manpages-ja, manpages-ja-dev, firefox-esr-l10n-ja, ibus-kkc
+Section: unknown
+Priority: optional
+Description: Japanese localization for uni desktop.

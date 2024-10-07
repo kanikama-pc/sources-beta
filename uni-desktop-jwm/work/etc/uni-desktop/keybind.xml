@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <Key key="Up">up</Key>
+    <Key key="Down">down</Key>
+    <Key key="Right">right</Key>
+    <Key key="Left">left</Key>
+    <Key key="Return">select</Key>
+    <Key key="Escape">escape</Key>
+
+    <Key mask="4" key="Up">maximize</Key>
+    <Key mask="4" key="Down">restore</Key>
+    <Key mask="4" key="Right">maxright</Key>
+    <Key mask="4" key="Left">maxleft</Key>
+    <Key mask="4C" key="Right">rdesktop</Key>
+    <Key mask="4C" key="Left">ldesktop</Key>
+    <Key mask="4A" key="Right">sendr</Key>
+    <Key mask="4A" key="Left">sendl</Key>
+
+    <Key mask="A" key="F4">close</Key>
+    <Key mask="4" key="d">showdesktop</Key>
+    <Key mask="A" key="Escape">nextstacked</Key>
+
+    <!-- Open app menu with Ctrl+Esc or Win key -->
+    <Key mask="C" key="Escape">exec:start-jgmenu</Key>
+    <StartupCommand>xcape -e 'Super_L=Control_L|Escape;Super_R=Control_R|Escape'</StartupCommand>
+
+    <Key mask="4" key="Print">exec:/usr/libexec/uni-desktop/screenshot.sh --fullscreen</Key>
+    <Key mask="A" key="Print">exec:/usr/libexec/uni-desktop/screenshot.sh --focused</Key>
+    <Key mask="4S" key="s">exec:/usr/libexec/uni-desktop/screenshot.sh --select</Key>
+
+    <Key mask="4" key="v">exec:diodon</Key>
+    <Key mask="4" key="e">exec:pcmanfm</Key>
+    <Key mask="4" key="l">exec:uni-control-center</Key>
+
+    <Key mask="CA" key="t">exec:lxterminal</Key>
+    <Key mask="CS" key="Escape">exec:lxtask</Key>
+    <Key mask="CA" key="Delete">exec:uni-session</Key>
+
+</JWM>

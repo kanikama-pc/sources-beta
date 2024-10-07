@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [ $1 = "-r" ]; then
+    killall -SIGUSR1 tint2
+    exit 0
+fi
+
+if [ ! -d ~/.config/tint2 ]; then
+    rm -rf ~/.config/tint2
+    mkdir -p ~/.config/tint2
+fi
+if [ ! -e ~/.config/tint2/tint2rc ]; then
+    cp /etc/tint2-theme-link/tint2rc ~/.config/tint2/
+fi
+if [ -e ~/.config/tint2/.nightmodeon ]; then
+    redshift -P -O 4500 &
+fi
+tint2

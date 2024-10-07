@@ -1,0 +1,8 @@
+Package: uni-desktop
+Version: 0.8
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Depends: grub-theme-link, plymouth-theme-link, xserver-xorg, slick-greeter, tint2-theme-link, jgmenu-theme-link, uni-control-center, uni-desktop-config, uni-desktop-jwm, uni-session, uni-wallpapers, xfce4-notifyd, audience, evince, gdebi, gparted, l3afpad, lxmusic, lxtask, lxterminal, mintstick, mint-translations, pantheon-calculator, pcmanfm, file-roller, firefox-esr
+Section: unknown
+Priority: optional
+Description: Metapackage for uni desktop environment

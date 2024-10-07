@@ -1,0 +1,8 @@
+Package: uni-session
+Version: 0.8
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Depends: zenity, lxtask, jwm, papirus-icon-theme
+Section: unknown
+Priority: optional
+Description: uni desktop session manager

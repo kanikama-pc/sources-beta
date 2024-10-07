@@ -1,0 +1,9 @@
+Package: uni-desktop-config
+Version: 0.8
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Depends: fonts-noto, arc-theme, papirus-icon-theme, adwaita-icon-theme, qt5ct, qt5-gtk2-platformtheme
+Recommends: l3afpad, lxterminal, viewnior
+Section: unknown
+Priority: optional
+Description: Default configuration for uni desktop

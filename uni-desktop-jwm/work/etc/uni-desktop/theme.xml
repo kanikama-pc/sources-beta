@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <WindowStyle>
+        <Font align="left">Sans-10:Bold</Font>
+        <Width>2</Width>
+        <Height>24</Height>
+        <Corner>20</Corner>
+        <Foreground>#808791</Foreground>
+        <Background>#2f343f</Background>
+        <Outline>#3f444f</Outline>
+        <Opacity>1</Opacity>
+        <Active>
+            <Foreground>#afb8c5</Foreground>
+            <Background>#2f343f</Background>
+            <Outline>#3f444f</Outline>
+        </Active>
+    </WindowStyle>
+
+    <MenuStyle>
+        <Font>Sans-11</Font>
+        <Foreground>#c3c9d9</Foreground>
+        <Background>#2f343f</Background>
+        <Outline>#3f444f</Outline>
+        <Active>
+            <Background>#5194e2</Background>
+            <Foreground>#ffffff</Foreground>
+        </Active>
+    </MenuStyle>
+
+    <PopupStyle>
+        <Font>Sans-11</Font>
+        <Foreground>#c3c9d9</Foreground>
+        <Background>#2f343f</Background>
+        <Outline>#3f444f</Outline>
+    </PopupStyle>
+
+    <IconPath>/usr/share/uni-desktop/icons</IconPath>
+    <ButtonClose>Close.xpm</ButtonClose>
+    <ButtonMax>Max.xpm</ButtonMax>
+    <ButtonMaxActive>MaxActive.xpm</ButtonMaxActive>
+    <ButtonMin>Min.xpm</ButtonMin>
+
+</JWM>

@@ -1,0 +1,7 @@
+Package: uni-wallpapers
+Version: 0.8
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Section: unknown
+Priority: optional
+Description: Wallpapers for uni desktop

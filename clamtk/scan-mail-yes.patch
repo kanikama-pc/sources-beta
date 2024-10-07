@@ -1,0 +1,12 @@
+diff --git a/usr/share/perl5/ClamTk/Scan.pm b/usr/share/perl5/ClamTk/Scan.pm
+--- a/usr/share/perl5/ClamTk/Scan.pm
++++ b/usr/share/perl5/ClamTk/Scan.pm
+@@ -197,7 +197,7 @@ sub filter {
+     # $directive .= ' --cross-fs=no';
+ 
+     # Try to avoid scanning emails...
+-    $directive .= ' --scan-mail=no';
++    $directive .= ' --scan-mail=yes';
+ 
+     # I didn't know we had to explicitly state this.
+     # https://github.com/dave-theunsub/clamtk/issues/59

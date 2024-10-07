@@ -1,0 +1,8 @@
+Package: uni-control-center
+Version: 0.8
+Architecture: all
+Maintainer: Yamato Tanikawa <kanikama_pc@outlook.jp>
+Depends: zenity, papirus-icon-theme, network-manager-gnome, blueberry, lxinput, lxrandr, slick-greeter, gufw, clamtk
+Section: unknown
+Priority: optional
+Description: uni desktop setting center

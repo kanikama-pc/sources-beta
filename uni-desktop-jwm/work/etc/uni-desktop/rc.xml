@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <Include>/etc/uni-desktop/theme.xml</Include>
+    <Include>/etc/uni-desktop/keybind.xml</Include>
+    <StartupCommand>/usr/libexec/uni-desktop/autostart.sh</StartupCommand>
+
+    <!-- The root menu. -->
+    <RootMenu onroot="12">
+        <Program label="Terminal">lxterminal</Program>
+        <Program label="Power options">uni-session</Program>
+    </RootMenu>
+
+    <!-- Options for program groups. -->
+    <Group>
+        <Option>tiled</Option>
+        <Option>aerosnap</Option>
+    </Group>
+
+    <!-- Virtual Desktops -->
+    <Desktops width="4" height="1"></Desktops>
+
+    <!-- Double click speed (in milliseconds) -->
+    <DoubleClickSpeed>400</DoubleClickSpeed>
+
+    <!-- Double click delta (in pixels) -->
+    <DoubleClickDelta>2</DoubleClickDelta>
+
+    <!-- The focus model (sloppy or click) -->
+    <FocusModel>click</FocusModel>
+
+    <!-- The snap mode (none, screen, or border) -->
+    <SnapMode distance="10">border</SnapMode>
+
+    <!-- The move mode (outline or opaque) -->
+    <MoveMode>opaque</MoveMode>
+
+    <!-- The resize mode (outline or opaque) -->
+    <ResizeMode>opaque</ResizeMode>
+
+</JWM>
